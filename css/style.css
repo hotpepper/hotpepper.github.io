@@ -9,6 +9,9 @@
 	font-size: 40;
 	color: red
 }
+.link {
+	font-weight: bold;
+}
 body{
 	font-family: 'Lato', sans-serif;
 	color: "grey"; /*#747704;*/
