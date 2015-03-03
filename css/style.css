@@ -11,7 +11,7 @@
 }
 body{
 	font-family: 'Lato', sans-serif;
-	color: #747704;
+	color: "grey"; /*#747704;*/
 	font-weight: 300;
 }
 #skills{
