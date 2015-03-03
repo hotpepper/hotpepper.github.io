@@ -1,1 +1,224 @@
-hello world
+<!DOCTYPE html>
+<html>
+    <head>
+         <link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
+         <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+         
+
+        <title>Seth</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+              <h1 id = "wip">WORK IN PROGESS</h1>
+                <div class="col-md-6 text-left" id ="header">
+                </div>
+                <div class="col-md-6 text-right text-uppercase">
+                    <h1 class ="title-super text-thin">Seth Hostetter</h1>
+                    <h3>Geospatial Data Anlyst</h3>
+                    <h3><a id="email" href="mailto:aasere@example.com" target="_top">Email</a></h3>
+                    <h3><a id="email" href = "https://github.com/hotpepper">github</a></h3>
+                    <h3 <a id="email" href = "http://hotpepper.github.io#featured-header">Sample Work</a></h3>
+                </div>
+
+            </div>
+            <div class "row">
+              <div class ="col-md-12">
+                <hr>
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="resume">
+                    <div id = "skills">
+                      <span>ArcGIS</span> 
+                      <span>QGIS</span> 
+                      <span>PYTHON</span> 
+                      <span>MS SQL Server</span>
+                      <span>PostgresSQL</span>
+                      <span>Adobe Creative Suite</span>
+                      </div>
+                    <div id ="workExperience"></div>
+                    <div id ="education"></div>
+                      </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-muted" id = "featured-header">
+                    <h2>Featured Work</h2>
+                </div>
+            </div>
+            <div class="row text-center">
+              <div class="col-md-6">
+                    <img class="img-responsive" src="images/vzvSmall.png" data-toggle="modal" data-target="#project6">
+                    <h3>Vision Zero View</h3>
+                   <!-- <p><a href="https://github.com/hotpepper">Link to project</a></p>-->
+                </div>
+                <div class="col-md-6">
+                    <img class="img-responsive" src="images/vzImg.png"  data-toggle="modal" data-target="#project1">
+                    <h3>Vision Zero Priority Maps</h3>
+                    <!--<p><a href="https://github.com/hotpepper">Link to project</a></p> -->
+                </div>
+            </div>
+            <div class="row text-center">
+                    <div class="col-md-6">
+                    <img class="img-responsive" src="images/camerasImg.png"  data-toggle="modal" data-target="#project2">
+                    <h3>Speed Camera Legislation Analysis</h3>
+                    <!--<p><a href="https://github.com/hotpepper">Link to project</a></p>-->
+                </div>
+                <div class="col-md-6">
+                    <img class="img-responsive" src="images/workFlowsImg.png" data-toggle="modal" data-target="#project3">
+                    <h3>Mapping Potential Bicycle Commuters</h3>
+                    <!--<p><a href="https://github.com/hotpepper">Link to project</a></p>-->
+                </div>
+            </div>
+        
+		<div class="row text-center">
+                 <div class="col-md-6">
+                    <img class="img-responsive" src="images/bivariateImg.png" data-toggle="modal" data-target="#project4">
+                    <h3>Community Engagement Mapping</h3>
+                    <!--<p><a href="https://github.com/hotpepper">Link to project</a></p>-->
+                </div>
+                <div class="col-md-6">
+                    <img class="img-responsive" src="images/bikeshareImg.png" data-toggle="modal" data-target="#project5">
+                    <h3>Bike Share Roolout Plan</h3>
+                    <!--<p><a href="https://github.com/hotpepper">Link to project</a></p>-->
+                </div>
+                
+            </div>
+        </div>
+		</div>
+
+
+
+        <!-- Modal -->
+<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Sample Vision Zero Map</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive2" src="images/vzImg.png">
+        This was created to dive the future projects of NYCDOT to the areas with the highest concentrations fo pedestian severe injuries and fatalities. 
+        <p>
+          <a href = "http://www.nyc.gov/html/dot/html/pedestrians/ped-safety-action-plan.shtml">Full reports</a>
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+        <!-- Modal -->
+<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Speed Camera Program Crash Analysis</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive2" src="images/camerasImg.png">
+        This map was created to provide support for NYCDOT to lobby for a change in legislation for additional speed cameras. Following presentaiton to the State Legislator New York City was granted permission to drammitically expand the speed camera program
+        <p></p>
+        <p>This required mapping the streets where cameras were legally permissible and calculating if a crash would be covered in the permissible areas and times of the existing program. Cameras were only permitted on streets within a quarter mile of a school and ajacent to school entrances.</p>
+          
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+ <!-- Modal -->
+<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Targeting Bicycle Programs</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive2" src="images/workFlowsImg.png">
+        <p>Mapping Journey to Work flows where the Census tract to Census Tract distance was most conducive to cycling. The purpose of this is to show non-typical commute patterns to target bicycle programs for optimal outcomes. 
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+    </div>
+  </div>
+</div>
+
+ <!-- Modal -->
+<div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Community Engagement</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive2" src="images/bivariateImg.png">
+        Comparing public input from <a href = "http://www.nyc.gov/html/visionzero/pages/maps-and-data/vz-input-map.shtml">Vision Zero Input </a> Map to other public request for DOT interventions.           
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+    </div>
+  </div>
+</div>
+  
+ <!-- Modal -->
+<div class="modal fade" id="project5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Bike Share Opportunities</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive2" src="images/bikeshareImg.png">
+        Mapping rollout proposal given ridership and financing models developed in the study. This report lead to the sucessful launch of NYC Bike Share <a href = "https://www.citibikenyc.com/">CitiBike</a> with more than 90,000 members and is currently planning on expanding.
+        <a href= "http://www.nyc.gov/html/dcp/html/transportation/td_bike_share.shtml">Full report</a>        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+    </div>
+  </div>
+</div>
+
+
+ <!-- Modal -->
+<div class="modal fade" id="project6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Vision Zero View Web Map</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive2" src="images/vzvImg.png">
+        Interactive web map to present NYPD Motor Vehicle crash data in relation to ongoing safety projects. My work on this map was scripting the data mapping, aggrigation, and updates. This required developing a intersection simplification process to insure data was properly represented. 
+        
+        <p><a href= "http://www.vzv.nyc/#">Vision Zero View</a></P>  
+
+        <p><a href = "https://github.com/hotpepper/ALIS_Network_Simplify">Intersection Simplification Code</a></P>
+              
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript" src="js/helper.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+    </body>
+</html>

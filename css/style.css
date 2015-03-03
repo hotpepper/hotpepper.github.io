@@ -1,0 +1,69 @@
+
+/*
+* {
+    border: 1px solid red !important;
+}
+*/
+#wip{
+	text-align: left;
+	font-size: 40;
+	color: red
+}
+body{
+	font-family: 'Lato', sans-serif;
+	color: #747704;
+	font-weight: 300;
+}
+#skills{
+    display: -webkit-flex; /* Safari */
+    -webkit-justify-content: space-around; /* Safari 6.1+ */
+    display: flex;
+    justify-content: space-around;
+}
+#featured-header{
+	border-bottom: 1px solid grey !important;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.education-entry, .work-entry, .project-entry {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+#email{
+	text-transform: lowercase;
+	font-size: 15px;
+}
+.text-muted{
+	color: #BCBBBB;
+}
+.text-thin{
+	font-weight:  100;
+}
+
+.title-super {
+	font-size:  60px;
+}
+
+.title-logo{
+	margin-top: 20px;
+	max-width: 100px;
+	max-height: 100px;
+}
+hr{
+	height: 2px;
+	background-color: #BCBBBB;
+}
+
+.img-responsive{
+	max-width: 400px;
+	height: 300px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.img-responsive2{
+	width: 90%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
