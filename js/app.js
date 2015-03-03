@@ -44,16 +44,7 @@ var model = {
 			"degree": "Master of Science",
 			"majors": "Urban Planning",
 			"minors": ["Transportation"],
-			"dates": "2006 - 2007",
-			"url": "http://www.columbia.edu/"
-     	},
-     	{
-			"name": "New School University",
-			"location": "New York, NY",
-			"degree": "Master of Science (Incompleate)",
-			"majors": "Urban Policy and Management",
-			"minors": ["Transportation"],
-			"dates": "2004 - 2005",
+			"dates": "2005 - 2007",
 			"url": "http://www.columbia.edu/"
      	},
      	{
