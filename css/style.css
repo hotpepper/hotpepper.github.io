@@ -25,7 +25,7 @@ body{
 }
 #featured-header{
 	border-bottom: 1px solid grey !important;
-	text-align: center;
+	text-align: left;
 	margin-bottom: 15px;
 }
 .education-entry, .work-entry, .project-entry {
