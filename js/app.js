@@ -118,6 +118,24 @@ var model = {
 	        "school": "Udacity",
 	        "date": 2013,
 	        "url": "https://www.udacity.com/course/cs101"
+	     },
+	     {
+	     	"title": "Maps and the Geospatial Revolution",
+	     	"school": "Corsera",
+	     	"date": 0,
+	     	"url": "https://www.coursera.org/course/maps"
+	     },
+	     {
+	     	"title": "Writing Queries Using Microsoft SQL Server 2008 Transact-SQL",
+	     	"school": "Microsoft Learning",
+	     	"date": 0,
+	     	"url": "https://www.microsoft.com/learning/en-us/course.aspx?id=2778a"
+	     },
+	     {
+	     	"title": "Implementing a Microsoft SQL Server 2008 R2 Database ",
+	     	"school": "Microsoft Learning",
+	     	"date": 0,
+	     	"url": "https://www.microsoft.com/learning/en-us/course.aspx?id=6232b"
 	     }
 	     ]
     //"display": function taking no 
@@ -155,10 +173,14 @@ var controller = {
 	},
 	formatOnline: function(c){
 		console.log("adding class: "+  model.education.onlineCourses[c].name)
-		return HTMLonlineTitle.replace("%data%", model.education.onlineCourses[c].title).replace("#", model.education.onlineCourses[c].url)+
-			HTMLonlineSchool.replace("%data%", model.education.onlineCourses[c].school)+
-			HTMLonlineDates.replace("%data%", model.education.onlineCourses[c].date)
-			+"<br>"
+		if (this.onlineLength()-1 ==c ) {
+			return HTMLonlineTitle.replace("%data%", model.education.onlineCourses[c].title).replace("#", model.education.onlineCourses[c].url)	
+		} else {
+			return HTMLonlineTitle.replace("%data%", model.education.onlineCourses[c].title).replace("#", model.education.onlineCourses[c].url)
+			+" | "
+		}
+		//HTMLonlineSchool.replace("%data%", model.education.onlineCourses[c].school)
+			//HTMLonlineDates.replace("%data%","-")
 			//+HTMLonlineURL.replace("%data%", model.education.onlineCourses[c].url)
 	},
 };
