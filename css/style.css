@@ -22,10 +22,11 @@ body{
     -webkit-justify-content: space-around; /* Safari 6.1+ */
     display: flex;
     justify-content: space-around;
+    font-size: 15px;
 }
 #featured-header{
 	border-bottom: 1px solid grey !important;
-	text-align: left;
+	text-align: center;
 	margin-bottom: 15px;
 }
 .education-entry, .work-entry, .project-entry {
