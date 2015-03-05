@@ -21,18 +21,60 @@ var model = {
 	projects:{
 		"project": [
 		{
-			"title": "Project Number 1",
-			"dates": "yesturday - today",
-			"description": "awesome project that is temporarily represented by phillip j fry",
-			"images":["images/fry.jpg", "images/fry.jpg"]
-			//"display": function taking no parameters
+			"pjctID": "project3",
+			"label": "Targeting Bicycle Programs",
+			"img": "images/workFlowsImg.PNG",
+			"about": "Map of short non-CBD commute trips for targeting new projects where they would be most benificial. Using census data to target new bicycle infrastructure for non-CBD bound JTW trips. Non-CBD trips make up a significant share of total transportation demand and are often poorly served by transit. To provide greater choice in travel mode to these trips, bicycle infrastructure may be targeted at the most heavily used non-CBD commutes that are within a reasonable biking distance.",
+			"data": "Nam accumsan ut diam in tempus. Sed imperdiet dignissim ornare. Donec mattis est id magna dictum gravida. Nunc faucibus, ante nec ultrices fermentum, sapien sapien accumsan sem",
+			"code": "Aliquam erat volutpat. Proin eget volutpat metus, feugiat hendrerit purus. Aliquam magna nulla, condimentum id porttitor vitae, pellentesque et erat."
 		},
 		{
-			"title": "Project Number 2",
-			"dates": "today - tomorrow",
-			"description": "yet another awesome project from seth",
-			"images":["images/fry.jpg", "images/fry.jpg"]
-			//"display": function taking no parameters
+			"pjctID": "project1",
+			"label": "Sample Vision Zero Map",
+			"img": "images/vzImg.PNG",
+			"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan et dolor quis volutpat. Etiam condimentum elementum enim, non pharetra elit interdum sit amet. Aenean lorem nulla, dignissim eu tortor sed, convallis mattis purus. Sed vehicula turpis sit amet mauris auctor, tempor elementum quam tempus. ",
+			"data": "Nam accumsan ut diam in tempus. Sed imperdiet dignissim ornare. Donec mattis est id magna dictum gravida. Nunc faucibus, ante nec ultrices fermentum, sapien sapien accumsan sem",
+			"code": "Aliquam erat volutpat. Proin eget volutpat metus, feugiat hendrerit purus. Aliquam magna nulla, condimentum id porttitor vitae, pellentesque et erat.",
+			"link": ["http://www.nyc.gov/html/dot/html/pedestrians/ped-safety-action-plan.shtml"],
+			"linkTxt": ["Full Report"]
+		},
+		{
+			"pjctID": "project2",
+			"label": "Speed Camera Program Crash Analysis",
+			"img": "images/camerasImg.PNG",
+			"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan et dolor quis volutpat. Etiam condimentum elementum enim, non pharetra elit interdum sit amet. Aenean lorem nulla, dignissim eu tortor sed, convallis mattis purus. Sed vehicula turpis sit amet mauris auctor, tempor elementum quam tempus. ",
+			"data": "Nam accumsan ut diam in tempus. Sed imperdiet dignissim ornare. Donec mattis est id magna dictum gravida. Nunc faucibus, ante nec ultrices fermentum, sapien sapien accumsan sem",
+			"code": "Aliquam erat volutpat. Proin eget volutpat metus, feugiat hendrerit purus. Aliquam magna nulla, condimentum id porttitor vitae, pellentesque et erat."
+		},
+		{
+			"pjctID": "project4",
+			"label": "Community Engagement",
+			"img": "images/bivariateImg.PNG",
+			"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan et dolor quis volutpat. Etiam condimentum elementum enim, non pharetra elit interdum sit amet. Aenean lorem nulla, dignissim eu tortor sed, convallis mattis purus. Sed vehicula turpis sit amet mauris auctor, tempor elementum quam tempus. ",
+			"data": "Nam accumsan ut diam in tempus. Sed imperdiet dignissim ornare. Donec mattis est id magna dictum gravida. Nunc faucibus, ante nec ultrices fermentum, sapien sapien accumsan sem",
+			"code": "Aliquam erat volutpat. Proin eget volutpat metus, feugiat hendrerit purus. Aliquam magna nulla, condimentum id porttitor vitae, pellentesque et erat.",
+			"link": ["http://www.nyc.gov/html/visionzero/pages/maps-and-data/vz-input-map.shtml"],
+			"linkTxt": ["Vision Zero Input"]
+		},
+		{
+			"pjctID": "project5",
+			"label": "Bike Share Opportunities",
+			"img": "images/bikeshareImg.PNG",
+			"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan et dolor quis volutpat. Etiam condimentum elementum enim, non pharetra elit interdum sit amet. Aenean lorem nulla, dignissim eu tortor sed, convallis mattis purus. Sed vehicula turpis sit amet mauris auctor, tempor elementum quam tempus. ",
+			"data": "Nam accumsan ut diam in tempus. Sed imperdiet dignissim ornare. Donec mattis est id magna dictum gravida. Nunc faucibus, ante nec ultrices fermentum, sapien sapien accumsan sem",
+			"code": "Aliquam erat volutpat. Proin eget volutpat metus, feugiat hendrerit purus. Aliquam magna nulla, condimentum id porttitor vitae, pellentesque et erat.",
+			"link": ["https://www.citibikenyc.com", "http://www.nyc.gov/html/dcp/pdf/transportation/bike_share_complete.pdf"],
+			"linkTxt": ["CitiBike", "Study"]
+		},
+		{
+			"pjctID": "project6",
+			"label": "Vision Zero View Web Map",
+			"img": "images/vzvImg.PNG",
+			"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan et dolor quis volutpat. Etiam condimentum elementum enim, non pharetra elit interdum sit amet. Aenean lorem nulla, dignissim eu tortor sed, convallis mattis purus. Sed vehicula turpis sit amet mauris auctor, tempor elementum quam tempus. ",
+			"data": "Nam accumsan ut diam in tempus. Sed imperdiet dignissim ornare. Donec mattis est id magna dictum gravida. Nunc faucibus, ante nec ultrices fermentum, sapien sapien accumsan sem",
+			"code": "Aliquam erat volutpat. Proin eget volutpat metus, feugiat hendrerit purus. Aliquam magna nulla, condimentum id porttitor vitae, pellentesque et erat.",
+			"link": ["http://www.vzv.nyc","https://github.com/hotpepper/ALIS_Network_Simplify"],
+			"linkTxt": ["Vision Zero View", "Intersection Simplification Code"]
 		}
 		]
 	},
@@ -183,6 +225,32 @@ var controller = {
 			//HTMLonlineDates.replace("%data%","-")
 			//+HTMLonlineURL.replace("%data%", model.education.onlineCourses[c].url)
 	},
+	projectLenght: function(){
+		return model.projects.project.length
+	},
+	linkLength: function(p) {
+		return model.projects.project[p].link.length
+	},
+	formatProject: function(p){
+		//add new code for Modals here
+		var output =  HTMLmodalPjct.replace("%data%", model.projects.project[p].pjctID)+
+		HTMLmodalLbl.replace("%data%", model.projects.project[p].label)+
+		HTMLmodalImg.replace("%data%", model.projects.project[p].img)+
+		HTMLmodalAbt.replace("%data%", model.projects.project[p].about)+
+		HTMLmodalDta.replace("%data%", model.projects.project[p].data)+
+		HTMLmodalCde.replace("%data%", model.projects.project[p].code)
+		//check for link
+		if (model.projects.project[p].link){
+			//get all links
+			console.log(this.linkLength(p))
+			for (linkout=0;linkout<this.linkLength(p); linkout++) {
+				console.log("out")
+				output = output + HTMLmodalLnk.replace("%data%", model.projects.project[p].link[linkout])+
+				HTMLmodalLnkTxt.replace("%data%", model.projects.project[p].linkTxt[linkout])+"<br>"
+			}
+		};
+		return output+HTMLmodalEnd
+	}
 };
 
 var view = {
@@ -205,10 +273,16 @@ var view = {
 			$(".education-entry:last").append(controller.formatOnline(i))
 		}
 	},
+	showProjectModals: function(){
+		for (i=0; i<controller.projectLenght(); i++) {
+			$("body").append(controller.formatProject(i))
+		}
+	},
 	render: function(){
 		this.showWork();
 		this.showSchool();
 		this.showOnline();
+		this.showProjectModals();
 	}
 };
 
