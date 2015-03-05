@@ -24,7 +24,7 @@ var model = {
 			"pjctID": "project3",
 			"label": "Targeting Bicycle Programs",
 			"img": "images/workFlowsImg.PNG",
-			"about": "Map of short non-CBD commute trips for targeting new projects where they would be most benificial. Using census data to target new bicycle infrastructure for non-CBD bound JTW trips. Non-CBD trips make up a significant share of total transportation demand and are often poorly served by transit. To provide greater choice in travel mode to these trips, bicycle infrastructure may be targeted at the most heavily used non-CBD commutes that are within a reasonable biking distance.",
+			"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan et dolor quis volutpat. Etiam condimentum elementum enim, non pharetra elit interdum sit amet. Aenean lorem nulla, dignissim eu tortor sed, convallis mattis purus.",
 			"data": "Nam accumsan ut diam in tempus. Sed imperdiet dignissim ornare. Donec mattis est id magna dictum gravida. Nunc faucibus, ante nec ultrices fermentum, sapien sapien accumsan sem",
 			"code": "Aliquam erat volutpat. Proin eget volutpat metus, feugiat hendrerit purus. Aliquam magna nulla, condimentum id porttitor vitae, pellentesque et erat."
 		},
