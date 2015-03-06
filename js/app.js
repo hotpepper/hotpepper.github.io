@@ -214,18 +214,15 @@ var controller = {
 		return	model.education.onlineCourses.length;
 	},
 	formatOnline: function(c){
-		console.log("adding class: "+  model.education.onlineCourses[c].name)
+		console.log("adding class: "+  model.education.onlineCourses[c].title)
 		if (this.onlineLength()-1 ==c ) {
 			return HTMLonlineTitle.replace("%data%", model.education.onlineCourses[c].title).replace("#", model.education.onlineCourses[c].url)	
 		} else {
 			return HTMLonlineTitle.replace("%data%", model.education.onlineCourses[c].title).replace("#", model.education.onlineCourses[c].url)
 			+" | "
 		}
-		//HTMLonlineSchool.replace("%data%", model.education.onlineCourses[c].school)
-			//HTMLonlineDates.replace("%data%","-")
-			//+HTMLonlineURL.replace("%data%", model.education.onlineCourses[c].url)
 	},
-	projectLenght: function(){
+	projectLength: function(){
 		return model.projects.project.length
 	},
 	linkLength: function(p) {
@@ -236,15 +233,11 @@ var controller = {
 		var output =  HTMLmodalPjct.replace("%data%", model.projects.project[p].pjctID)+
 		HTMLmodalLbl.replace("%data%", model.projects.project[p].label)+
 		HTMLmodalImg.replace("%data%", model.projects.project[p].img)+
-		HTMLmodalAbt.replace("%data%", model.projects.project[p].about)+
-		HTMLmodalDta.replace("%data%", model.projects.project[p].data)+
-		HTMLmodalCde.replace("%data%", model.projects.project[p].code)
+		HTMLmodalAbt.replace("%data%", model.projects.project[p].about)
 		//check for link
 		if (model.projects.project[p].link){
 			//get all links
-			console.log(this.linkLength(p))
 			for (linkout=0;linkout<this.linkLength(p); linkout++) {
-				console.log("out")
 				output = output + HTMLmodalLnk.replace("%data%", model.projects.project[p].link[linkout])+
 				HTMLmodalLnkTxt.replace("%data%", model.projects.project[p].linkTxt[linkout])+"<br>"
 			}
@@ -274,7 +267,7 @@ var view = {
 		}
 	},
 	showProjectModals: function(){
-		for (i=0; i<controller.projectLenght(); i++) {
+		for (i=0; i<controller.projectLength(); i++) {
 			$("body").append(controller.formatProject(i))
 		}
 	},
