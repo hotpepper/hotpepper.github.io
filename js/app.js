@@ -111,6 +111,12 @@ var model = {
      	"onlineCourses":
      	[
      	{
+	     	"title": "Full Stack Foundations",
+	        "school": "Udacity",
+	        "date": 2015,
+	        "url": "https://www.udacity.com/course/ud088"
+	     },
+     	{
 	     	"title": "JavaScript Design Patterns",
 	        "school": "Udacity",
 	        "date": 2015,
