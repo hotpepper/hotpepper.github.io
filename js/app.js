@@ -99,7 +99,7 @@ var model = {
 			"url": "http://www.columbia.edu/"
      	},
      	{
-     		"name": "State University of New York University at Buffalo",
+     		"name": "State University of New York, University at Buffalo",
      		"location": "Buffalo, NY",
      		"degree": "Bachelor of Arts",
      		"majors": "Environmental Design",
