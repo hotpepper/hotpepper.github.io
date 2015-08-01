@@ -4,7 +4,7 @@ var model = {
 		"jobs": [
 		{
 			"employer": "New York City Department of Transportation",
-			"title": "City Planner",
+			"title": "Researcher-Database Manager (City Planner)",
 			"location":"New York",
 			"dates":"2009 - Present",
 			"description" : "Manage a team of analysts working with GIS and relational data sets<br>Design and build quantitative analysis tools using GIS, SQL and Python<br>Collect, create, manage, and analyze  data for projects, programs, policies, and reports<br>Develop and maintain geospatial and relational databases for agency-wide use<br>Manage the design and implementation of production level geospatial databases and applications<br>Coordinate with outside agencies and organizations on research projects"
