@@ -54,19 +54,15 @@ var model = {
 			"data": "Crash data are related to the street network, this analysis related each school to the streets where speed cameras are legally permissible. Each crash can then be identified as either on a permissible street or not.",
 			"code": "This project used Python and GIS to determine for each school, the streets that were within 1/4 mile of the school and adjacent to the school building's street frontage. This allows each crash to be assigned to a school if permissible."
 		},
-		/*
 		{
 			"pjctID": "project4",
-			"label": "Public Engagement",
-			"img": "images/bivariateImg.PNG",
-			"about": "<p>The Vision Zero Public Input Map is an online interactive map allowing New Yorkers the opportunity to identify pedestrian safety issues and the locations where the issues occur. Nearly 12,000 pedestrian safety issues were shared and mapped. However, the majority of them were outside of the most dangerous areas relative to pedestrian safety.<p>This map compares two discrete groupings of public requests relating to traffic safety. The first set is the public input on safety concerns via the Vision Zero Input site. The second set is public requests for common safety interventions such as speed humps. The data was aggregated for both sets based on the density of the requests per location and stored in raster data.  ArcGIS Map Algebra was used to combine features and generate a new raster value based on the overlap of the two groups of requests.<p>The map was developed to determine if this was a due to a lack of access to technology or a lack of public engagement that led to the disparity between location with pedestrian injuries and locations identified as problematic.  The map shows clear areas of disengagement as well as areas of high levels of engagement. This also illustrates that some communities are engaged, but not with the Vision Zero Public Input process.",
+			"label": "City Council District Crash Map",
+			"img": "CC_hcc_map [Converted].png",
+			"about": "<p>High Crash Corridors and Pedestrian KSI for two City Council districts",
 			//"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan et dolor quis volutpat. Etiam condimentum elementum enim, non pharetra elit interdum sit amet. Aenean lorem nulla, dignissim eu tortor sed, convallis mattis purus. Sed vehicula turpis sit amet mauris auctor, tempor elementum quam tempus. ",
-			"data": "Uses two descrete groupings of community requests. The first set is the public input on safety concerns via Vision Zero Input site. The second set is public requests for common safety interventions such as speed humps. The data was agregated for both sets based on the density of the requests per location and stored in raster data.",
-			"code": "Uses ArcGIS Map Algebra to combine features and generate a new raster value based on the overlap of the two groups of requests.",
-			"link": ["http://www.nyc.gov/html/visionzero/pages/maps-and-data/vz-input-map.shtml"],
-			"linkTxt": ["Vision Zero Input"]
+			"data": "",
+			"code": ""
 		},
-		*/
 		{
 			"pjctID": "project5",
 			"label": "Bike Share Proposal",
