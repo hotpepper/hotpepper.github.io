@@ -54,6 +54,7 @@ var model = {
 			"data": "Crash data are related to the street network, this analysis related each school to the streets where speed cameras are legally permissible. Each crash can then be identified as either on a permissible street or not.",
 			"code": "This project used Python and GIS to determine for each school, the streets that were within 1/4 mile of the school and adjacent to the school building's street frontage. This allows each crash to be assigned to a school if permissible."
 		},
+		/*
 		{
 			"pjctID": "project4",
 			"label": "Public Engagement",
@@ -65,6 +66,7 @@ var model = {
 			"link": ["http://www.nyc.gov/html/visionzero/pages/maps-and-data/vz-input-map.shtml"],
 			"linkTxt": ["Vision Zero Input"]
 		},
+		*/
 		{
 			"pjctID": "project5",
 			"label": "Bike Share Proposal",
