@@ -57,7 +57,7 @@ var model = {
 		{
 			"pjctID": "project4",
 			"label": "City Council District Crash Map",
-			"img": "CC_hcc_map [Converted].png",
+			"img": "images/CC_hcc_map [Converted].png",
 			"about": "<p>High Crash Corridors and Pedestrian KSI for two City Council districts",
 			//"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan et dolor quis volutpat. Etiam condimentum elementum enim, non pharetra elit interdum sit amet. Aenean lorem nulla, dignissim eu tortor sed, convallis mattis purus. Sed vehicula turpis sit amet mauris auctor, tempor elementum quam tempus. ",
 			"data": "",
