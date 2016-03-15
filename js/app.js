@@ -58,7 +58,7 @@ var model = {
 			"pjctID": "project4",
 			"label": "City Council District Crash Map",
 			"img": "images/CC_hcc_map [Converted].png",
-			"about": "<p>High Crash Corridors and Pedestrian KSI for two City Council districts",
+			"about": "<p>High Crash Corridors and Pedestrian KSI for two City Council districts. This map was used to illustrate both the relative crash rate of the roadways and the intensity of the crashes at various locations. The crash rate is determined for every corridor in the city and each corridor is given a severity weight depending on its rank relative to all other corridors in the borough.",
 			//"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan et dolor quis volutpat. Etiam condimentum elementum enim, non pharetra elit interdum sit amet. Aenean lorem nulla, dignissim eu tortor sed, convallis mattis purus. Sed vehicula turpis sit amet mauris auctor, tempor elementum quam tempus. ",
 			"data": "",
 			"code": ""
