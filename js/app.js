@@ -14,7 +14,7 @@ var model = {
 			"title": "Researcher-Database Manager",
 			"location":"New York",
 			"dates":"2009 - 2016",
-			"description" : "Manage a team of analysts working with GIS and relational data sets<br>Design and build quantitative analysis tools using GIS, SQL and Python<br>Collect, create, manage, and analyze  data for projects, programs, policies, and reports<br>Develop and maintain geospatial and relational databases for agency-wide use<br>Manage the design and implementation of production level geospatial databases and applications<br>Coordinate with outside agencies and organizations on research projects"
+			"description" : "Manage a team of analysts working with GIS and relational data sets<br>Build data processing, management, and reporting tools<br>Design and build quantitative analysis tools using GIS, SQL and Python<br>Collect, create, manage, and analyze data for projects, programs, policies, and reports<br>Develop and maintain large GIS and relational databases (Microsoft SQL Server, Esri ArcSDE, PostgreSQL and PostGIS)<br>Design and develop geospatial databases and applications<br>Coordinate with outside agencies and organizations on research projects"
 		},
 		{
 			"employer": "New York City Department of City Planning",
