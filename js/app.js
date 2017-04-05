@@ -3,10 +3,17 @@ var model = {
 	"work" : {
 		"jobs": [
 		{
-			"employer": "New York City Department of Transportation",
-			"title": "Researcher-Database Manager (City Planner)",
+		    "employer": "New York City Department of Transportation",
+			"title": "Director of Safety Analytics and Mapping",
 			"location":"New York",
-			"dates":"2009 - Present",
+			"dates":"2016 - Present",
+			"description" : "Lead the data analytics unit for the Transportation Planning and Management division of DOT<br>Direct research supporting the data analysis needs of the agency for projects, programs and policy<br>Oversee data acquisition, processing, storage to ensure accuracy and availability<br>Direct the design, development and maintenance of large geospatial and relational databases<br>Manage the design and implementation of production level applications for geospatial and quantitative analysis"
+		},
+		{
+			"employer": "New York City Department of Transportation",
+			"title": "Researcher-Database Manager",
+			"location":"New York",
+			"dates":"2009 - 2016",
 			"description" : "Manage a team of analysts working with GIS and relational data sets<br>Design and build quantitative analysis tools using GIS, SQL and Python<br>Collect, create, manage, and analyze  data for projects, programs, policies, and reports<br>Develop and maintain geospatial and relational databases for agency-wide use<br>Manage the design and implementation of production level geospatial databases and applications<br>Coordinate with outside agencies and organizations on research projects"
 		},
 		{
